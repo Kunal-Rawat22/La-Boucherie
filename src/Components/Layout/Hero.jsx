@@ -13,10 +13,10 @@ export default function Hero() {
           delicous joy in life !!{" "}
         </p>
         <div className="flex gap-5">
-          <button className="bg-primary p-2 text-xl font-bold text-white rounded-full px-6 flex items-center uppercase">
+          <button className="bg-primary p-2 text-lg font-semibold text-white rounded-full px-6 flex items-center uppercase">
             Order Now &nbsp; <Right />
           </button>
-          <button className="p-2 text-xl font-bold rounded-full px-6 border flex text-gray-600">
+          <button className="p-2 text-lg font-semibold rounded-full px-6 border border-primary flex text-gray-600">
             Learn More &nbsp; <Right />
           </button>
         </div>
