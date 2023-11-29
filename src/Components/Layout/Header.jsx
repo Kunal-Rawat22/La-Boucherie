@@ -6,7 +6,7 @@ export default function Header() {
       <nav className="flex gap-8 text-lg text-gray-500 font-semibold items-center">
         <Link
           className="text-primary text-3xl font-semibold flex gap-3 items-center"
-          href={""}
+          href={"/"}
         >
           <Image
             src={"/logo.png"}
@@ -24,7 +24,7 @@ export default function Header() {
         />
         La Boucherie */}
         </Link>
-        <Link href={""} className="">
+        <Link href={"/"} className="">
           Home
         </Link>
         <Link href={""} className="">
