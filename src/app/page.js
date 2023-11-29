@@ -1,8 +1,13 @@
 import Header from "@/Components/Layout/Header";
-import Link from "next/link";
+import Hero from "@/Components/Layout/Hero";
+import HomeMenuTitle from "@/Components/Layout/HomeMenu";
 
 export default function Home() {
   return (
-    <Header/>
+    <>
+      <Header />
+      <Hero />
+      <HomeMenuTitle/>
+    </>
   );
 }
