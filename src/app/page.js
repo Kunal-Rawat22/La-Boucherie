@@ -1,4 +1,6 @@
 import AboutUs from "@/Components/Layout/AboutUs";
+import ContactUs from "@/Components/Layout/ContactUs";
+import Footer from "@/Components/Layout/Footer";
 import Header from "@/Components/Layout/Header";
 import Hero from "@/Components/Layout/Hero";
 import HomeMenu from "@/Components/Layout/HomeMenu";
@@ -15,12 +17,22 @@ export default function Home() {
         subSubHeader={"Chosen & Loved by Several Foodies !!"}
       />
       <HomeMenu />
+      <hr className="mt-6"/>
       <HomeMenuTitle
         subHeader={"Our Story"}
         Header={"About Us"}
-        subSubHeader={"The Origins of La Boucherie!!"}
+        subSubHeader={"The Origins of La Boucherie !!"}
       />
-      <AboutUs/>
+      <AboutUs />
+      <hr className="mt-12"/>
+
+      <HomeMenuTitle
+        subHeader={"Don't Hesitate"}
+        Header={"Contact Us"}
+        subSubHeader={"Always There for Feedback !!"}
+      />
+      <ContactUs />
+      <Footer />
     </>
   );
 }
