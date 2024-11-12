@@ -14,7 +14,6 @@ export default function RegisterPage() {
             </div>
             <RegisterForm />
             <RegisterPolicy/>
-            
             <RegisterBtn/>
           </div>
         </div>

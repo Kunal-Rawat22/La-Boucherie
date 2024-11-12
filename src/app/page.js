@@ -1,8 +1,8 @@
-import AboutUs from "@/Components/Layout/AboutUs";
-import ContactUs from "@/Components/Layout/ContactUs";
-import Hero from "@/Components/Layout/Hero";
-import HomeMenu from "@/Components/Layout/HomeMenu";
-import HomeMenuTitle from "@/Components/Layout/HomeMenuTitle";
+import AboutUs from "../Components/Layout/AboutUs";
+import ContactUs from "../Components/Layout/ContactUs";
+import Hero from "../Components/Layout/Hero";
+import HomeMenu from "../Components/Layout/HomeMenu";
+import HomeMenuTitle from "../Components/Layout/HomeMenuTitle";
 
 export default function Home() {
   return (

@@ -5,7 +5,6 @@ export default function HomeMenuTitle({subHeader, Header, subSubHeader}) {
       <div className="">
         <Image
           src={"/salad1.png"}
-          objectFit="contain"
           width={200}
           height={100}
           alt={"Salad"}
@@ -25,7 +24,6 @@ export default function HomeMenuTitle({subHeader, Header, subSubHeader}) {
         {" "}
         <Image
           src={"/Pasta2.png"}
-          objectFit="contain"
           width={200}
           height={100}
           alt={"Salad"}

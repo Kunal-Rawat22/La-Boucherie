@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="hero">
       <div className="py-24">
         <h1 className="text-5xl font-bold ">
-          Everything <br/> is better <br/> with a{" "}
+          Everything <br /> is better <br /> with a{" "}
           <span className="text-primary">Pizza</span>
         </h1>
         <p className="text-lg font-medium text-gray-500 my-6">
@@ -26,7 +26,7 @@ export default function Hero() {
           src={"/pizza.png"}
           alt={"Pizza"}
           layout={"fill"}
-          objectFit={"contain"}
+          className="object-contain"
         />
       </div>
     </div>

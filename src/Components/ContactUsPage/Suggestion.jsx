@@ -2,10 +2,10 @@ export default function Suggestion() {
   const SubClasses = "text-xl font-semibold mb-1";
   return (
     <div className="flex flex-col border h-full rounded-lg shadow-2xl">
-      <div class="py-3 text-center border-b bg-gray-100">
+      <div className="py-3 text-center border-b bg-gray-100">
         <h4 className={SubClasses}>Suggestion</h4>
       </div>
-      <div class="flex flex-col space-y-2 px-4 py-4">
+      <div className="flex flex-col space-y-2 px-4 py-4">
         <input
           type="text"
           name="name"

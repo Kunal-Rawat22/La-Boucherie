@@ -10,10 +10,9 @@ export default function Header() {
         >
           <Image
             src={"/logo.png"}
-            objectFit="contain"
             width={100}
             height={100}
-            alt={"Salad"}
+            alt={"logo"}
           />
           {/* <Image
           src={"/logo.png"}
